@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h2>Forms</h2>
+            </center>
+        </header>
+        <hr/>
+        <div>
+            <fieldset>
+                <legend>Employee</legend>
+                <form action="" method="GET">
+                    <a href="https://aakashedureka.s3.ap-south-1.amazonaws.com/html.png" download>Image</a>
+                    <div>
+                        <label for="sno">Sno</label>
+                        <input type="text" value="77N7VVGGWW" id="sno"
+                        readonly
+                        name="sno"/>
+                    </div>
+                    <div>
+                        <label for="fname">FirstName</label>
+                        <input type="text" value="John" id="fname"
+                        autofocus
+                        name="first"/>
+                    </div>
+                    <div>
+                        <label for="lname">LastName</label>
+                        <input id="lname" required
+                        name="last"/>
+                    </div>
+                    <div>
+                        <label for="lname">LastName</label>
+                        <input id="lname" required hidden
+                        name="last"/>
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" placeholder="a@a.com"
+                        pattern="^([a-zA-Z]+)@([a-zA-Z]+)\.([a-z]{2,5})$"
+                        name="email"/>
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password"
+                        minlength="8"
+                        name="pwd"/>
+                    </div>
+                    <div>
+                        <label>Confirm Password</label>
+                        <input type="password"
+                        maxlength="8"
+                        name="pwd"/>
+                    </div>
+                    <div>
+                        <label>File</label>
+                        <input type="file"/>
+                    </div>
+                    <div>
+                        <label>Url</label>
+                        <input type="url"/>
+                    </div>
+                    <div>
+                        <label>Date</label>
+                        <input type="date"/>
+                    </div>
+                    <div>
+                        <label>Gender</label>
+                        <label>
+                            <input type="radio" value="Female"
+                            name="gender"/>Female
+                        </label>
+                        <label>
+                            <input type="radio" value="Male"
+                            name="gender"/>Male
+                        </label>
+                    </div>
+                    <div>
+                        <label>Tech</label>
+                        <label>
+                            <input type="checkbox" value="javascript"
+                            name="tech"/>Javascript
+                        </label>
+                        <label>
+                            <input type="checkbox" value="react"
+                            name="tech"/>React
+                        </label>
+                        <label>
+                            <input type="checkbox" value="node"
+                            name="tech"/>Node
+                        </label>
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <select>
+                            <option>Delhi</option>
+                            <option>London</option>
+                            <option>Helsinki</option>
+                        </select>
+                    </div>
+                    <label>Bank</label>
+                    <input list="bank">
+                    <datalist id="bank">
+                        <option>HDFC</option>
+                        <option>HSBC</option>
+                        <option>American Express</option>
+                        <option>Bank of America</option>
+                        <option>NetWest</option>
+                    </datalist>
+                    <div>
+                        <label>How Early You Join(0-5)</label>
+                        <input type="range" min="0" max="5"/>
+                    </div>
+                    <div>
+                        <textarea rows="3" cols="40"></textarea>
+                    </div>
+                    <input type="submit" value="submit">
+                    <button type="reset" disabled>Reset</button>
+                </form>
+            </fieldset>
+        </div>
+        <hr/>
+        <footer>
+            &copy;Edureka
+        </footer>
+    </body>
+</html>

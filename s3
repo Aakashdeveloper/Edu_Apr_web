@@ -1,0 +1,32 @@
+/*********************
+    Create bucket
+*********************/
+=>S3
+    => Create bucket    
+        => provide Unique name(select region)
+            =>Create bucket
+
+/*********************
+    Upload in bucket
+*********************/
+=> Select the bucket
+    =>Add File
+        => upload
+
+/*********************
+   Make Bucket Public
+*********************/
+=> Select bucket
+    =>Permission
+        =>Edit
+            =>Uncheck public option
+/**********************
+    Host Wesbite with S3
+*********************/
+=> Create a Bucket  
+    => create static html page
+        =>upload html page
+            => Properties
+                =>Static website hosting    
+                    => Provide main File
+                        =>Hit Url
