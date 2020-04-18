@@ -2,3 +2,20 @@ Block Level
 Inline Element
 
 a@a
+
+///////
+Inline
+StyleTag
+StyleSheet
+
+Inline > StyleTag >StyleSheet
+
+Target
+
+> Id> Unique
+> Class> common to multiple tag
+> TagName > To target by html TagName
+
+> color name 
+>color code 
+> rbg color

@@ -1,0 +1,85 @@
+.heading{
+    text-align: center;
+    color:steelblue
+}
+.topic{
+    height: 280px;
+    width:300px;
+    border:5px groove violet;
+    overflow: scroll;
+    float: left;
+    margin-left:15px;
+    padding: 10px;
+    border-radius:10%;
+    box-shadow: 10px 10px #f2c8c8;
+    background-color: thistle;
+    visibility: visible;                                 
+}
+
+.topic-heading{
+    text-align: center;
+}
+
+#html span{
+    font-weight: bold;
+}
+
+.secondline{
+    margin-top:20px;
+    background:skyblue
+}
+
+.topic:hover{
+    transform: scale(1.1,1.1);
+}
+
+.thirdline{
+    border-radius: 30%;
+    margin-top:20px;
+}
+
+.thirdline:hover{
+    /*transform: rotate(70deg);*/
+    transform: skewX(20deg);
+}
+body{
+    background-image:radial-gradient(skyblue,lightpink,lightgreen,rgb(239, 246, 133));
+    -moz-background-image:radial-gradient(skyblue,lightpink,lightgreen,rgb(239, 246, 133));
+    -o-image:radial-gradient(skyblue,lightpink,lightgreen,rgb(239, 246, 133));
+    -webkit-background-image:radial-gradient(skyblue,lightpink,lightgreen,rgb(239, 246, 133))
+}
+
+#htmlimg{
+    height:40px;
+    width:40px;
+}
+
+@media screen and (min-width:400px){
+    body{
+        background:olive
+    }
+}
+@media screen and (min-width:800px){
+    body{
+        background:tan
+    }
+}
+@media screen and (min-width:1000px){
+    body{
+        background-image:radial-gradient(skyblue,lightpink,lightgreen,rgb(239, 246, 133))
+
+    }
+}
+
+
+
+
+/*
+background:rgb(212, 247, 212)
+background-image:url('./1322289-bigthumbnail.jpg')
+solid
+dotted
+dashed
+double
+groove
+*/
