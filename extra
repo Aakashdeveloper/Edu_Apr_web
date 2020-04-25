@@ -19,3 +19,63 @@ Target
 > color name 
 >color code 
 > rbg color
+
+primary
+success
+warning
+danger
+info
+
+BS3
+col-lg
+col-md
+col-sm
+col-xs
+
+BS4
+col-
+col-sm
+col-md
+col-lg
+col-xl
+
+
+Ecma 5
+Ecma 6
+> variable
+> Operations
+> condition
+> if else
+> ternery Operations
+> Date
+> switch
+////////////////
+> localstorage
+> array
+> loops
+> String literals
+> functions 
+> Es6
+    > lat, const
+    > maps,filter
+> Clousers
+> regex
+> Hoisting
+> object 
+> Transpile
+> Es6
+    > classes
+    > import export
+> Prototypes
+> DoM
+> Geolocation
+> Form validation
+> Event
+> Calc
+> currenyConvertor
+> promis
+> async await
+> Weather application
+> ajax
+> Baisc Jquery
+> Progress bar
