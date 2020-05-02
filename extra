@@ -52,7 +52,6 @@ Ecma 6
 > localstorage
 > array
 > String literals
-////////////////
 > loops
 > functions 
 > Es6
@@ -62,6 +61,7 @@ Ecma 6
 > regex
 > Hoisting
 > object 
+////////////////
 > Transpile
 > Es6
     > classes
@@ -75,7 +75,9 @@ Ecma 6
 > currenyConvertor
 > promis
 > async await
+> Progress bar
+> Dynamic Dropdown
+///////
 > Weather application
 > ajax
 > Baisc Jquery
-> Progress bar
