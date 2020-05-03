@@ -61,7 +61,6 @@ Ecma 6
 > regex
 > Hoisting
 > object 
-////////////////
 > Transpile
 > Es6
     > classes
@@ -75,9 +74,32 @@ Ecma 6
 > currenyConvertor
 > promis
 > async await
+////////////////
 > Progress bar
 > Dynamic Dropdown
-///////
 > Weather application
 > ajax
 > Baisc Jquery
+
+
+
+
+////Transpile/////
+
+package.json
+
+[
+    {
+        name:"aa",
+        class:"bb"
+    }
+]
+
+/////
+navigate to the folder using cmd
+type npm init
+Answer all questions
+type 'yes'
+
+> npm install @babel/core @babel/register @babel/preset-env
+

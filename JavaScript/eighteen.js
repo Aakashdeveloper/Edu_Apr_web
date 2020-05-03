@@ -58,3 +58,4 @@ dbquery.find('Emp')
 "Select * from Emp"
 dbquery.insert('Emp',{name:'abc',city:'delhi'})
 "Insert into Emp name,city VALUES(abc, delhi)"
+

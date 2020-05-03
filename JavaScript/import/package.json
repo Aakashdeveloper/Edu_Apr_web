@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "this is JS app",
+  "main": "first.js",
+  "scripts": {
+    "start":"node start.js"
+  },
+  "keywords": [
+    "Node",
+    "JS"
+  ],
+  "author": "Edureka",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0"
+  }
+}
