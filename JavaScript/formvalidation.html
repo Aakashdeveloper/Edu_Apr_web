@@ -5,6 +5,7 @@
                 var name = document.getElementById('fname').value;
                 if(name==' '||name==''){
                     document.getElementById('out').innerText="Please Insert First Name"
+                    document.getElementById("fname").focus();
                 }else{
                     document.getElementById('out').innerText=""
                 }
@@ -43,10 +44,12 @@
         </script>
     </head>
     <body>
+        <center>
         <form>
             <div>
                 <label>FirstName*</label>
                 <input type="text" id="fname" onblur="validate()"/>
+                <p id="out" style="color:red"></p>
             </div>
             <div>
                 <label>LastName</label>
@@ -65,6 +68,6 @@
                 <input type="email" id="email" onblur="validateEmail()"/>
             </div>
         </form>
-        <p id="out" style="color:red"></p>
+    </center>
     </body>
 </html>

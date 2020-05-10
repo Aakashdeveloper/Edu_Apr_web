@@ -74,13 +74,13 @@ Ecma 6
 > currenyConvertor
 > promis
 > async await
-////////////////
 > Progress bar
 > Dynamic Dropdown
 > Weather application
 > ajax
 > Baisc Jquery
-
+////////////////////////////////
+Plugins
 
 
 
@@ -103,3 +103,32 @@ type 'yes'
 
 > npm install @babel/core @babel/register @babel/preset-env
 
+<!DOCTYPE html>
+<html>
+<body>
+<form name="myForm">
+<input type="text" id="myText2" value="Data Validation" readonly>
+<input type="number" id="myNumb1" value="0" onblur="validateForm(this.id)">
+<input type="number" id="myNumb2" value="0" onblur="validateForm(this.id)">
+<input type="number" id="myNumb3" value="0" readonly>
+<input type="number" id="myNumb4" value="0" readonly>
+
+<script type='text/javascript'>
+
+function validateForm(id){
+  var z = document.forms["myForm"][id].value;
+
+  if(!/^[0-9]+$/.test(z)){
+    
+document.forms["myForm"][id].value="0";
+document.forms["myForm"]["myText2"].value=id+" - Invalid Data Entered";
+alert("Please only enter numeric characters Only! (Allowed input:0-9)")
+  }
+else 
+document.forms["myForm"]["myText2"].value=id+" - Valid Data";
+
+}
+</script>
+
+</body>
+</html>
